@@ -33,13 +33,11 @@ app.get("/", (req, res) => {
     }
 });
 
-// 
 app.get("/dashboard", Authentication, async (req, res) => {
+    let id = req.headers.UserID
     try {
-        const BookingData = await BookingModel.find();
-        const UsersData = await UserModel.find();
-        const FligtsData = await FlightsModel.find();
-        res.status(200).json({ Message: "Dashboard route", BookingData, UsersData, FligtsData });
+        const BookingData = await BookingModel.find({ user: id });
+        res.status(200).json({ Message: "Dashboard route", BookingData });
     } catch (err) {
         console.log(err);
         res.status(400).json({ Error: err })

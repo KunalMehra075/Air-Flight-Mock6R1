@@ -7,6 +7,7 @@ const Authentication = (req, res, next) => {
 
     jwt.verify(token, process.env.key, (err, decoded) => {
         if (decoded) {
+            req.headers.UserID = decoded.userID
             next()
         } else {
             res.status(400).json({ Message: "JWT error" })
