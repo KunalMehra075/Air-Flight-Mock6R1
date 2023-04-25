@@ -26,7 +26,7 @@ app.use("/bookings", Authentication, BookingRouter)
 app.get("/", (req, res) => {
     try {
         console.log(new Date().toISOString());
-        res.status(200).json({ Message: "Welcome to Bookin App" });
+        res.status(200).json({ Message: "Welcome to Air Flight Booking App" });
     } catch (err) {
         console.log(err);
         res.status(400).json({ Error: err })
