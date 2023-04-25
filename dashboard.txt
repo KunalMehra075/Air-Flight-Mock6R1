@@ -1,0 +1,89 @@
+{
+  "Message": "Dashboard route",
+  "BookingData": [
+    {
+      "_id": "64478d9aab00c301c2ffde50",
+      "user": "64478cc156b515ed52fba39b",
+      "flight": "64478c153b81736b01269094",
+      "__v": 0
+    }
+  ],
+  "UsersData": [
+    {
+      "_id": "64478cc156b515ed52fba39b",
+      "name": "Kunal Mehra",
+      "email": "kunalmehra240304@gmail.com",
+      "password": "$2b$10$5YXQ5qDcRemmoZX6twKSZ.w.o2WKKiVCf8UO3fFnZBKJZy.DZuuvS",
+      "__v": 0
+    },
+    {
+      "_id": "64478cfcb35ec8f165e784c7",
+      "name": "Ranu Mehra",
+      "email": "mehrakk@gmail.com",
+      "password": "$2b$10$FZKmzhygyBJ7R5EralIQ1e1bGGpaxP5Md/197PSBjDHOdsWmIQD6C",
+      "__v": 0
+    }
+  ],
+  "FligtsData": [
+    {
+      "_id": "64478b9acf5c1841839f7a69",
+      "airline": "Lufthanza",
+      "flightNo": "XB101",
+      "departure": "Mumbai",
+      "arrival": "Dubai",
+      "departureTime": "2023-05-25T07:55:32.039Z",
+      "arrivalTime": "2023-05-27T08:55:32.039Z",
+      "seats": 7000,
+      "price": 2600,
+      "__v": 0
+    },
+    {
+      "_id": "64478bf2d6df73694e1fe829",
+      "airline": "Sahara",
+      "flightNo": "XB101",
+      "departure": "Pakistan",
+      "arrival": "Mongolia",
+      "departureTime": "2023-05-25T07:55:32.039Z",
+      "arrivalTime": "2023-05-27T08:55:32.039Z",
+      "seats": 1000,
+      "price": 1500,
+      "__v": 0
+    },
+    {
+      "_id": "64478c153b81736b01269094",
+      "airline": "Fly Arab Emirates",
+      "flightNo": "XB101",
+      "departure": "Ney York",
+      "arrival": "Dubai",
+      "departureTime": "2023-05-25T07:55:32.039Z",
+      "arrivalTime": "2023-05-26T08:55:32.039Z",
+      "seats": 2000,
+      "price": 1025,
+      "__v": 0
+    },
+    {
+      "_id": "64478c30a0052d8d0e431cdb",
+      "airline": "Air India",
+      "flightNo": "AI201",
+      "departure": "Mumbai",
+      "arrival": "Delhi",
+      "departureTime": "2023-05-25T07:55:32.039Z",
+      "arrivalTime": "2023-05-26T08:55:32.039Z",
+      "seats": 2500,
+      "price": 7500,
+      "__v": 0
+    },
+    {
+      "_id": "64478c4c521177cc1267d185",
+      "airline": "Kunal Agencies",
+      "flightNo": "AI201",
+      "departure": "Jabalpur",
+      "arrival": "Wakanda",
+      "departureTime": "2023-05-25T05:55:32.039Z",
+      "arrivalTime": "2023-05-26T08:55:32.039Z",
+      "seats": 1500,
+      "price": 1500,
+      "__v": 0
+    }
+  ]
+}

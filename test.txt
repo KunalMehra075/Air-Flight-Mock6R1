@@ -1,0 +1,31 @@
+{
+  "name":"Kunal Mehra",
+  "email":"kunalmehra240304@gmail.com",
+  "password":"kunal143"
+}
+
+{
+  "airline": "Sahara",
+  "flightNo": "AX101",
+  "departure": "Delhi",
+  "arrival": "New York",
+  "departureTime": "2023-04-25T07:55:32.039Z",
+  "arrivalTime": "2023-04-22T07:55:32.039Z",
+  "seats": 10000,
+  "price": 2700
+}
+{
+  "airline": "Kunal Agencies",
+  "flightNo": "AI201",
+  "departure": "Jabalpur",
+  "arrival": "Wakanda",
+  "departureTime": "2023-05-25T05:55:32.039Z",
+  "arrivalTime": "2023-05-26T08:55:32.039Z",
+  "seats": 1500,
+  "price": 1500
+}
+
+{
+  "user":"64478cc156b515ed52fba39b",
+  "flight":"64478c153b81736b01269094"
+}
